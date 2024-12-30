@@ -21,3 +21,16 @@ Confusion Matrix:-
 ![41](https://github.com/user-attachments/assets/d90824cb-f5cd-4147-91b3-078fc7e8eac3)
 AUC-ROC Curve:-
 ![51](https://github.com/user-attachments/assets/737a9227-60b7-4a31-884f-7372bf99f41e)
+
+### Challenges and Solutions
+Challenge 1:
+When the model was trained using the custom CNN and VGG16, the training and validation accuracy were very low (around 0.53). This showed that the models were not able to tell the difference between healthy and unhealthy images.
+
+Solution:
+The problem was solved by using ResNet18, which gave much better results and a validation accuracy of 0.9. The deeper architecture of ResNet18 helped the model better recognize the differences between healthy and unhealthy images.
+
+Challenge 2:
+Another challenge was overfitting, where the model did well on the training data but struggled with the validation data.
+
+Solution:
+To solve this, data augmentation techniques like rotation, zooming, shifting, and flipping were used to make the training data more varied. This helped the model perform better on new, unseen images.
