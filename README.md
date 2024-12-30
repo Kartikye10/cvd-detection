@@ -5,6 +5,8 @@ Objective: Create an image classification model to identify cardiovascular disea
  ### Dataset description
  
 The dataset contains 1,118 RGB retinal images captured using the Optomed Smartscope digital fundus camera, each with a resolution of 1536x1152 pixels in JPG format. These images were collected from the right and left eyes of 100 cattle, of which 52 were diagnosed with Cardiovascular Disease (CVD) and 48 were non-CVD. The dataset is organized into two categories: non-CVD, labeled as "0," comprising 527 images, and CVD, labeled as "1," comprising 591 images.
+#### Dataset link - 
+https://www.kaggle.com/datasets/animalbiometry/cvd-vs-noncvd-retinal-images-of-cattle
 ![11](https://github.com/user-attachments/assets/ab0a3300-3694-4ccc-8bbd-144f8d7e01d7)
 
 ### Methodology
