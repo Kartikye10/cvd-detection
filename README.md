@@ -13,7 +13,7 @@ https://www.kaggle.com/datasets/animalbiometry/cvd-vs-noncvd-retinal-images-of-c
 1. Data Prepocessing - The dataset consisted of retinal images of cattle, categorized as healthy and unhealthy. These images were resized to 224x224 pixels to ensure compatibility with deep learning models. To increase the diversity of the dataset, data augmentation techniques such as rotation, zooming, shifting, and flipping were applied. The dataset was then divided into two parts: 80% for training and 20% for validation.
 2. Model Selection and training - Three different models were trained: a custom Convolutional Neural Network (CNN), VGG16, and ResNet18. Among these models, ResNet18 demonstrated the best performance, achieving the highest accuracy on both the training and validation sets.
 3. Evaluation Metrics - The models were evaluated on the validation dataset using several metrics, including accuracy, confusion matrix, classification report, and AUC-ROC. The confusion matrix was plotted to visually assess the classification accuracy for the healthy and unhealthy categories. Additionally, the ROC curve was generated, and the AUC-ROC score was computed to evaluate the model’s ability to distinguish between the two classes effectively.
-   ![21](https://github.com/user-attachments/assets/e3fe6957-bdae-4efb-8d3c-070f29b5da40)
+   ![21](https://github.com/user-attachments/assets/e3fe6957-bdae-4efb-8d3c-070f29b5da40|width=500)
 ### Results and Evaluation Scores
 Classification report:- 
 ![31](https://github.com/user-attachments/assets/a3a883ac-db72-42db-bfad-b3eb7a648355)
